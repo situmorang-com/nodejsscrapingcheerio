@@ -19,11 +19,11 @@ var port = 8000;
 var destination = fs.createWriteStream('./downloads/google.html');
 var url = "http://google.com";
 request(url)
-    .pipe(destination);
+    .pipe(destination)
     .on('finish', function() {
         console.log('done');
     })
-    on('error', function(err) {
+    .on('error', function(err) {
         console.log(err);
     })
 
