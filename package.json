@@ -1,0 +1,24 @@
+{
+  "name": "nodejsscraping",
+  "version": "1.0.0",
+  "description": "scraping the web using node.js and cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs;",
+    "cheerio;",
+    "web",
+    "scraping"
+  ],
+  "author": "Edmund Situmorang",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
+  }
+}
